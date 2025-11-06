@@ -26,7 +26,7 @@ model1 = LinearRegression()
 model1.fit(X, y)
 
 # Save the model
-with open('linear_regression_model.pkl', 'wb') as f:
+with open('mode_1.pickle', 'wb') as f:
     pickle.dump(model1, f)
 
 
@@ -56,7 +56,7 @@ model2.fit(X2, y2)
 
 # Save the model
 with open('decision_tree_model.pkl', 'wb') as f:
-    pickle.dump(model2, f)
+    pickle.dump(model_2.pickle, f)
 
 
 
