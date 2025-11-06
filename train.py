@@ -56,7 +56,7 @@ model2.fit(X2, y2)
 
 # Save the model
 with open('model_2.pickle', 'wb') as f:
-    pickle.dump(model_2.pickle, f)
+    pickle.dump(model2, f)
 
 
 
